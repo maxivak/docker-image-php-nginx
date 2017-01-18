@@ -18,9 +18,9 @@ RUN rm -rf /build
 
 # debug
 
-RUN echo "<?php phpinfo(); ?>" > /var/www/html/1.php
-RUN echo "222" > /var/www/html/2.php
-RUN echo "222" > /var/www/html/2.html
+#RUN echo "<?php phpinfo(); ?>" > /var/www/html/1.php
+#RUN echo "222" > /var/www/html/2.php
+#RUN echo "222" > /var/www/html/2.html
 
 #
 EXPOSE 80 443
