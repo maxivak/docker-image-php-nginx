@@ -29,9 +29,23 @@ docker tag my-php-nginx my-php-nginx:5.6
 ```
 
 
+# Run container
+
+* copy your PHP site to folder on host machine `/path/to/site/`
+
+* run container
+```
+docker run -d --name my-php -v /path/to/site/:/var/www/html -p 8080:80 my-php-nginx:5.6 /sbin/my_init
+```
+
+* open in browser `http://localhost:8080`
+
+
 
 # Settings
-Several environmental variables are available to adjust settings
+
+* Environmental variables are available to adjust settings
+
 
 ## DOCROOT
 
