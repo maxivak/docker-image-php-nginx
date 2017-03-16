@@ -44,4 +44,3 @@ For example: `DOCROOT=/var/www/html`
 You can use `TZ` to configure the timezone. The php.ini timezone will also be adjusted based on `TZ``
 
 For example: `TZ=America/New_York`
-
